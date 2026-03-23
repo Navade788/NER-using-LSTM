@@ -6,6 +6,22 @@ To develop an LSTM-based model for recognizing the named entities in the text.
 
 ## Problem Statement and Dataset
 
+Build a Named Entity Recognition (NER) model that can automatically identify and classify entities like names of people, locations, organizations, and other important terms from text. The goal is to tag each word in a sentence with its corresponding entity label.
+
+### Dataset Name: ner_dataset.csv
+
+Size: Contains thousands of words grouped into sentences with entity annotations.
+
+#### Columns:
+
+Sentence # – Sentence ID
+
+Word – Individual word/token in the sentence
+
+POS – Part-of-speech tag
+
+Tag – Named entity tag (e.g., O, B-PER, I-LOC, etc.)
+
 
 ## DESIGN STEPS
 
